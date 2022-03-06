@@ -1,0 +1,48 @@
+:root {
+    --primary: #ccdad1;
+    --border-radius: 5px;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.website-title {
+    color: white;
+    background: linear-gradient(to right,blue, purple);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.left-column {
+  border-bottom: 3px solid blue;
+} 
+
+.form-input {
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 27px;
+  border-radius: var(--border-radius);
+}
+
+.btn {
+  font-size: 16px;
+  padding: 10px 127px;
+  display: block;
+  border: none;
+  background-color:dodgerblue;
+  color: var(--primary);
+  margin: 10px 0;
+}
+
+#clear {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+

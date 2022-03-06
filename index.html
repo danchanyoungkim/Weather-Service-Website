@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  <link rel = "stylesheet" href="./assets/css/style.css"/>
+  <title>National Weather Dashboard</title>
+</head>
+
+<body>
+  <header class = "hero">
+    <h1 class = "website-title text-center">National Weather Dashboard</h1>
+  </header>    
+
+  <main class = "flex-row justify-space-between">
+    <div class = "col-12 col-md-4">
+      <div>
+        <form class = "left-column">
+          <input placeholder = "Search for a City:" name = "city" id = "input-city" type = "text" autofocus = "true" class = "form-input">
+          <button type = "submit" class = "btn">Search</button>
+        </form>
+        <button type = "reset" id = "clear" class = "btn">Clear Cities</button>
+        <ul id = "searched-cities"></ul>
+      </div>
+    </div>
+  
+    <div class = "col-12 col-md-8">
+
+    </div>
+  </main>
+</body>
+</html>
